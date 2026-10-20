@@ -107,7 +107,20 @@ is distinct from the historical scalar output-affine map.
 - `checksums.sha256`: SHA-256 checksums of release files.
 - [CITATION.cff](CITATION.cff): dataset authors and repository citation metadata.
 
-This initial deposit publishes the study's analysis-ready measurements and
-supporting scores. It does not assert publication acceptance, a dataset DOI or
-an independently archived release. See [LICENSE_STATUS.md](LICENSE_STATUS.md)
-for the current licensing status.
+This deposit publishes the study's analysis-ready measurements and supporting
+scores. Use the Git commit identifier to identify the version used in an
+analysis. No dataset DOI has been assigned.
+
+## Licensing
+
+| Material | Licence |
+| --- | --- |
+| Measurements, results, metadata and accompanying documentation | [CC BY-NC 4.0](LICENSE-DATA.txt) |
+| Software in `code/` | [PolyForm Noncommercial 1.0.0](LICENSE-CODE.md) |
+
+Both licences permit reuse for their specified noncommercial purposes. Data
+reuse requires attribution; software redistribution must preserve the licence
+and required notice. The software is source available under a noncommercial
+licence. See [LICENSE.md](LICENSE.md) for scope and attribution details.
+
+For commercial permissions, contact Yingbang Yao (ybyao@gdut.edu.cn).
