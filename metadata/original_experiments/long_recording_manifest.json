@@ -1,0 +1,40 @@
+{
+  "status": "RAN",
+  "started_at_utc": "2026-09-21T05:15:10.761137+00:00",
+  "completed_at_utc": "2026-09-21T05:16:26.165796+00:00",
+  "protocol": {
+    "alpha_selection": "target-specific historical seven-session LOSO; score evaluation-role rows only; raw-predictor alpha shared across corrections",
+    "fixed_grid": [
+      0.01,
+      1.0,
+      10.0,
+      100.0,
+      1000.0
+    ],
+    "long_scopes": [
+      "big_loop_transfer",
+      "extension_transfer"
+    ],
+    "long_anchor_selection": "reused target-blind environmental selection from cyclic study",
+    "no_long_test_labels_for_alpha": true,
+    "roles_sha256": "a46c79d6acda1fbc6db50012f5798c6c55e12d55cc9ecee3cc125e3cb9d13c74"
+  },
+  "inputs": {
+    "old": {
+      "path": "data/historical/recordings.csv.gz",
+      "sha256": "4e952dbc4bb2dbdf6d024de53b3e3d3a1fc68aa4dd56e542697414666e376a71"
+    },
+    "new": {
+      "path": "data/long_recording/recordings.csv.gz",
+      "sha256": "e84d13a9496f03e234ec0672233b81d2fdf5e16faefb9f2d8edf64ce86148196"
+    },
+    "cyclic_script": {
+      "path": "cyclic_adaptive_anchor_transfer_20260919.py",
+      "sha256": "e8958f625fdbdc70b7ea23be91d0d2dd2bc221deda00fa20eb1ded767c458c88"
+    }
+  },
+  "code": {
+    "path": "long_alpha_sensitivity_20260921.py",
+    "sha256": "809fd9c0235026f3923abe8fc7396114f229a8b08282a2560aba38fee14308b1"
+  }
+}

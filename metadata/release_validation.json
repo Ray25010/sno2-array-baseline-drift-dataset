@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-20",
+  "status": "PASSED",
+  "commands": [
+    "python code/verify_release.py",
+    "python code/train_historical.py --output rerun_all",
+    "python code/verify_release.py --prediction-directory rerun_all/predictions"
+  ],
+  "historical_rows": 74183,
+  "historical_calibration_rows": 8004,
+  "historical_evaluation_rows": 43791,
+  "historical_unscored_rows": 22388,
+  "long_recording_rows": 304103,
+  "long_recording_complete_sensor_rows": 304089,
+  "refitted_targets": 25,
+  "refitted_input_families": ["environment", "mean_peer", "full_peer"],
+  "target_session_folds_per_method": 175,
+  "verified_prediction_method_branches": 12,
+  "verified_fold_metric_rows": 2100,
+  "maximum_refit_prediction_difference_V": 8.881784197001252e-16,
+  "maximum_reconstructed_rmse_difference_V": 4.440892098500626e-16,
+  "raw_macro_rmse_V": 0.052764297194510416,
+  "affine_macro_rmse_V": 0.03224303282448018,
+  "improved_target_means": 23,
+  "improved_session_means": 4,
+  "worse_target_session_folds": 75,
+  "coverage": "Historical models refitted from released measurements; forward and long-recording tables are archived scores, not full training reruns."
+}

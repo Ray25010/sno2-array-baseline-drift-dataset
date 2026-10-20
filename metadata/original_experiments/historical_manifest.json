@@ -1,0 +1,76 @@
+{
+  "status": "complete",
+  "protocol": "raw-selected inner LOSO; fixed predictor across corrections",
+  "sessions": [
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5",
+    "D7_2_formal",
+    "D8_2_20260903_formal"
+  ],
+  "targets": 25,
+  "evaluation_rows_per_target": 43791,
+  "alphas": [
+    0.01,
+    1.0,
+    100.0,
+    10000.0
+  ],
+  "source_hashes": {
+    "input": "4e952dbc4bb2dbdf6d024de53b3e3d3a1fc68aa4dd56e542697414666e376a71",
+    "roles": "a46c79d6acda1fbc6db50012f5798c6c55e12d55cc9ecee3cc125e3cb9d13c74",
+    "archive": "6699b3bb6f349dc8227446daeac468b7d1982e4f212e959ad25bf1b065b75c2c",
+    "selected": "7b0c2804b289375b16fef26560bc52b41f96783c4b539fc2694e93a051edf5f2"
+  },
+  "script_sha256": "b7e8f895ce04feefb116d0548ce875ee8cbe9b93b4817a9e97414744165f667a",
+  "comparisons": {
+    "full_peer__none_minus_full_peer__affine": {
+      "mean_gain_V": 0.020521264370030236,
+      "improved_sessions": 4,
+      "sign_p": 1.0,
+      "wilcoxon_W": 8.0,
+      "wilcoxon_p": 0.375,
+      "gain_ci95_V": [
+        -0.00040597592186814024,
+        0.04440312693581188
+      ]
+    },
+    "full_peer__offset_minus_full_peer__affine": {
+      "mean_gain_V": 0.003250151948400496,
+      "improved_sessions": 4,
+      "sign_p": 1.0,
+      "wilcoxon_W": 10.0,
+      "wilcoxon_p": 0.578125,
+      "gain_ci95_V": [
+        -0.0028111911446455635,
+        0.010978919173527557
+      ]
+    },
+    "environment__affine_minus_full_peer__affine": {
+      "mean_gain_V": 0.13939390427666185,
+      "improved_sessions": 7,
+      "sign_p": 0.015625,
+      "wilcoxon_W": 0.0,
+      "wilcoxon_p": 0.015625,
+      "gain_ci95_V": [
+        0.10475165299316568,
+        0.17624756166153246
+      ]
+    },
+    "mean_peer__affine_minus_full_peer__affine": {
+      "mean_gain_V": 0.0810385981315238,
+      "improved_sessions": 7,
+      "sign_p": 0.015625,
+      "wilcoxon_W": 0.0,
+      "wilcoxon_p": 0.015625,
+      "gain_ci95_V": [
+        0.0606426986930441,
+        0.10543237802802571
+      ]
+    }
+  },
+  "mse_gain_fraction_bias_squared": 0.9836729882385032,
+  "maximum_archive_prediction_difference_V": 2.886579864025407e-15
+}

@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "Please cite this dataset repository and identify the Git commit used."
+title: "SnO2 Array Baseline Drift Dataset"
+type: dataset
+authors:
+  - family-names: Zhang
+    given-names: Bairui
+    affiliation: "School of Integrated Circuits, Guangdong University of Technology"
+  - family-names: He
+    given-names: Puhao
+    affiliation: "School of Integrated Circuits, Guangdong University of Technology"
+  - family-names: Lan
+    given-names: Xin
+    affiliation: "School of Integrated Circuits, Guangdong University of Technology"
+  - family-names: Zhao
+    given-names: Shuojin
+    affiliation: "School of Integrated Circuits, Guangdong University of Technology"
+  - family-names: Yao
+    given-names: Yingbang
+    affiliation: "School of Integrated Circuits, Guangdong University of Technology"
+    email: ybyao@gdut.edu.cn
+repository-code: "https://github.com/Ray25010/sno2-array-baseline-drift-dataset"
+url: "https://github.com/Ray25010/sno2-array-baseline-drift-dataset"
+version: "0.1.0"
+date-released: "2026-10-20"
+abstract: >-
+  Analysis-ready multi-session baseline-voltage recordings from a 25-channel
+  SnO2 gas sensor array, including environmental measurements, fixed row roles,
+  historical per-row predictions and chronological score tables supporting
+  peer-assisted residual calibration.
+keywords:
+  - SnO2
+  - gas sensor array
+  - baseline voltage
+  - cross-session calibration
+  - temperature and humidity

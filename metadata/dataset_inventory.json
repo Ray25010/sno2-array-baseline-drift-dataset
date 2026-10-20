@@ -1,0 +1,42 @@
+[
+  {
+    "repository_path": "data/historical/recordings.csv.gz",
+    "source_basename": "input_25ch.csv",
+    "source_csv_sha256": "4e952dbc4bb2dbdf6d024de53b3e3d3a1fc68aa4dd56e542697414666e376a71",
+    "sha256": "37d307b0f145de25d2eacf4a2f1384789b9caeae862603596eeaa7e27dbe53f5",
+    "source_bytes": 24279573,
+    "stored_bytes": 7197393
+  },
+  {
+    "repository_path": "data/historical/row_roles.csv.gz",
+    "source_basename": "roles.csv",
+    "source_csv_sha256": "a46c79d6acda1fbc6db50012f5798c6c55e12d55cc9ecee3cc125e3cb9d13c74",
+    "sha256": "73fc46573dea7bd933e3994549479d0f005dcff048a287c3909d9f92412dbdb0",
+    "source_bytes": 4723115,
+    "stored_bytes": 544152
+  },
+  {
+    "repository_path": "data/historical/anchor_windows.csv",
+    "source_basename": "anchor_budget.csv",
+    "source_csv_sha256": "4ce9af8d821947cc1c7e9d204fde4e76b046da219190ee93044d3e55f5707522",
+    "sha256": "4ce9af8d821947cc1c7e9d204fde4e76b046da219190ee93044d3e55f5707522",
+    "source_bytes": 4400,
+    "stored_bytes": 4400
+  },
+  {
+    "repository_path": "data/long_recording/recordings.csv.gz",
+    "source_basename": "20260915T103724Z_7dd978a147b7_segmented.csv",
+    "source_csv_sha256": "e84d13a9496f03e234ec0672233b81d2fdf5e16faefb9f2d8edf64ce86148196",
+    "sha256": "47d7a3c6ca365412b2b7a93efb4278e91886c704cc90078883c669ccfcadf5e8",
+    "source_bytes": 110004547,
+    "stored_bytes": 28329017
+  },
+  {
+    "repository_path": "data/long_recording/segment_summary.csv",
+    "source_basename": "segment_summary.csv",
+    "source_csv_sha256": "887cc12f7465b9e4393f14055bacd98a5367e33c9b6520e28759da0ab4fc82ce",
+    "sha256": "887cc12f7465b9e4393f14055bacd98a5367e33c9b6520e28759da0ab4fc82ce",
+    "source_bytes": 13457,
+    "stored_bytes": 13457
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "forward": {
+    "affine": 0.03704010590164107,
+    "offset": 0.04002633985193411,
+    "raw": 0.08465562511870299,
+    "reduction_pct": 56.246137395236374
+  },
+  "environment_raw_archive_max_difference_V": 8.881784197001252e-16,
+  "representative_fit_rmse_V": {
+    "full_peer__none": 0.030719974141083517,
+    "full_peer__affine": 0.009095698053932674
+  },
+  "best_target": "sensor_010_V",
+  "sensor22_nrmse_pct": 0.8459581307477875,
+  "sensor23_nrmse_pct": 0.717204148047981,
+  "peer_reduction_vs_env_pct": 81.21439745485556,
+  "peer_reduction_vs_mean_pct": 71.53728053491515
+}

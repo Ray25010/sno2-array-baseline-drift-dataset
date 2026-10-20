@@ -1,0 +1,4 @@
+# Preserve release checksums across operating systems.
+* -text
+*.csv whitespace=cr-at-eol
+*.gz binary

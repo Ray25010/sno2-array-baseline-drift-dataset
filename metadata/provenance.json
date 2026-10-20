@@ -1,0 +1,20 @@
+[
+  {
+    "source_basename": "manifest.json",
+    "source_sha256": "8b89f4852fd0319ca927965d6e41eec629beb42f86dcf01dc9d022e475f4e44e",
+    "repository_path": "metadata/original_experiments/historical_manifest.json",
+    "transformation": "local absolute paths replaced; scientific fields unchanged"
+  },
+  {
+    "source_basename": "asset_audit.json",
+    "source_sha256": "8522a6b2b7f0b3cdc5e8c1845aa4c13c6efbbb2bebef6cba25217c9c9b9162fb",
+    "repository_path": "metadata/original_experiments/figure_asset_audit.json",
+    "transformation": "local absolute paths replaced; scientific fields unchanged"
+  },
+  {
+    "source_basename": "manifest.json",
+    "source_sha256": "434fb33d452ae3f32d4e4d41d0638e133618b51341154db466049250c52f9ed4",
+    "repository_path": "metadata/original_experiments/long_recording_manifest.json",
+    "transformation": "local absolute paths replaced; scientific fields unchanged"
+  }
+]
